@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/582624c0c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header class="container-inicial">
+        <img src="./assets/logo.svg" alt="logo" class="logo">
+        <div class="container">
+            <nav class="navegador" id="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkmenu">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label for="check" class="equis">
+                    <i class="fas fa-times"></i>
+                </label>   
+                <ul class="navegador-principal">
+                    <li class="lista" id="topico"><a href="#temas">TOPICOS</a></li>
+                    <li class="lista" id="entrevista"><a href="#invitados">ENTREVISTAS</a></li>
+                    <li class="lista" id="nosotros"><a href="#venimos">NOSOTROS</a></li>
+                    <li class="lista" id="episodios"><a href="#albumes">EPISODIOS</a></li>             
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container-dos">
+            <div id="encabezado">
+                <h1 class="titulo">
+                <span class="hello">Hello
+                <span class="span1">world</span></span>
+                <span class="hello">pale blue dot<span class="span2">.</span></span>
+                </h1>
+                <p class="parrafo">
+                    El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días
+                </p>
+                <div class="boton">
+                    <label for="conoce_mas"></label>
+                    <button id="conoce_mas">CONOCÉ MÁS</button>
+                </div>
+            </div>
+        </div>
+        <section id="section1">
+            <h2 id="albumes" class="sesion">Episodios</h2>    
+            <div class="contenedor_pod">
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+        <section id="venimos">
+            <img src="./assets/phone.png" alt="imagen sobrepuesta" class="sobrepuesta">
+            <div>
+                <h2 class="deDonde">De donde venimos</h2>
+                <p class="de">our posturing, our imagined sel-importance, 
+                    the delusion that we have some privileged 
+                    position in the universe, are challenged by this 
+                    point of pale light. <br><br>
+     
+                    our planet is a lonely speck in the great 
+                    enveloping cosmic dark. In our obscurity, in all 
+                    this vastness, there is no hint that help will 
+                    come from elsewhere to save us from ourselves</p>
+            </div>
+        </section>
+        <section id="invitados">
+            <h1 class="tituloin">Invitados/as estelares</h1>
+            <div class="algo">
+                <img src="./assets/grace-hopper.png" alt="grace-hopper" class="galeria">
+                <img src="./assets/Katie-Bouman.png" alt="Katie-Bouman" class="galeria">
+                <img src="./assets/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="galeria">
+                <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="computer" class="galeria">
+                <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="computer" class="galeria">
+                <img src="./assets/susan-kare.png" alt="susan-kare" class="galeria">
+            </div>
+        </section>
+        <section id="temas">
+            <h1 class="temas">Algunos de nuestros temas</h1>
+            <div id="temasPadre">
+                <div>
+                    <div  class="icono">
+                        <img src="./assets/icon1.svg" alt="icon1" class="icon">
+                    </div>
+                    <h4 class="temasP">Trabajo remoto</h4>
+                </div>
+
+                <div>
+                     <div  class="icono">
+                         <img src="./assets/icon2.svg" alt="icon2" class="icon">
+                    </div>
+                    <h4 class="temasP">Repensando la programación</h4>
+                </div>
+                <div>
+                    <div class="icono">
+                        <img src="./assets/icon3.svg" alt="icon3" class="icon" id="icon3">
+                    </div>
+                    <h4 class="temasP">Bases del código</h4>
+                </div>
+                <div >
+                    <div class="icono">
+                    <img src="./assets/icon4.svg" alt="icon4" class="icon">
+                    </div>
+                    <p class="temasP">Bases del código</p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="novedades">
+            <h2 class="tituloNovedades">¿Querés las últimas novedades?</h2>
+            <div class="parrafoNovedades">
+                <label for="conoceMas"></label>
+                <input type="button" value="ESCUCHÁ LOS ESPISODIOS" id="escuchaLosEpisodios">
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footerPadre">
+        <p class="footer" id="textoFooter">© 2021— Hello blue pale dot </p>
+        <ul class="redesSociales">
+            <li><a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://telegram.org/" target="_blank" ><i class="fab fa-telegram"></i></a></li>
+        </ul> 
+    </footer>
+</body>
+</html>
